@@ -44,7 +44,10 @@ def check_win(player, computer):
 #   return "Hi :)"
 
 check_win("rock", "paper")
-print(get_choices())
+choices = get_choices()
+print(check_win(choices["player"], choices["computer"]))
+
+
 # response = greeting()
 # print(response)
 
