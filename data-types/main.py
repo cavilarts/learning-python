@@ -15,3 +15,6 @@ print(isinstance(decimals, float))
 
 ageString = "35"
 ageCasted = int(ageString) # casting string to number
+
+
+is_true = True
