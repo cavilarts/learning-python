@@ -27,3 +27,17 @@ class State(Enum):
   INACTIVE = 0
   
 print(list(State))
+
+# Objects
+
+test_age = 8
+
+print(test_age.real)
+print(test_age.imag)
+print(test_age.bit_length())
+
+items = [1, 2]
+items.append(3)
+items.pop()
+
+print(id(items))
