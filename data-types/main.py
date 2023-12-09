@@ -1,3 +1,6 @@
+from enum import Enum
+
+
 name = "carlos"
 print(type(name)) # the type is str
 
@@ -18,3 +21,9 @@ ageCasted = int(ageString) # casting string to number
 
 
 is_true = True
+
+class State(Enum):
+  ACTIVE = 1
+  INACTIVE = 0
+  
+print(list(State))
