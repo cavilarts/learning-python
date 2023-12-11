@@ -41,3 +41,11 @@ items.append(3)
 items.pop()
 
 print(id(items))
+
+
+# List compressions
+
+nums = [1, 2, 3 , 4, 5]
+nums_pw_2 = [n**2 for n in nums]
+
+print(nums_pw_2)
